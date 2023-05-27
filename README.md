@@ -30,3 +30,5 @@ This application requires the following to be installed on your machine:
 ## How it Works
 
 The application works by establishing a WebSocket connection between the client and the server. The client captures video frames from the webcam using JavaCV and sends these frames to the server. The server then broadcasts these frames to all connected clients. The clients receive these frames and display them on the user interface using JavaFX.
+
+---
